@@ -1,0 +1,41 @@
+# MongoDB
+
+## Basic Info
+
+Installation guide: https://docs.mongodb.com/getting-started/shell/installation/
+
+use documents (BSON), not tables.
+non-rational, does not use joins like SQL, uses references instead
+
+Advantages
+easy schema
+scalability
+object-oriented
+agile development
+
+can easy update schma
+
+## Documents vs Collections
+
+Document: a record i a MongoDB collection and the basic unit of data in MongoDB. Documents look like JSON objects but exit as BSON.
+BSON hasd quotes in both keys and properties
+
+Collection: a grouping of MongoDB docs. Typically, all docs in a coll. have a related purpose
+
+## Commands
+
+JSON: Javascript Object notation, passed around between view and server.
+db.<collectionname>.find() find docs in collection
+db.<collectionname>.find().pretty() displays in easy-to-read format
+
+Run MongoDB daemon by typing 'mongod'
+Then, use MongoDB shell by typing 'mongo'
+
+use <databasename> | creates/switches to a database
+db.createCollection("<collectionname>") | creates new collection
+show collections | shows collections in database
+
+db.<collectionname>.insert({"<key>": "<property>"}); | inserts a new document
+*once this document is submitted to the database, it is converted into BSON*
+ 
+
