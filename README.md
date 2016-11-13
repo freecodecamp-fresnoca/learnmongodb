@@ -4,11 +4,11 @@
 
 Notes and resources to start learning MongoDB.
 
-Offical introduction: https://www.docs.mongodb.com/manual/introduction/
+Offical introduction: www.docs.mongodb.com/manual/introduction/
 
 ## Installation
 
-https://www.docs.mongodb.com/manual/installation/
+www.docs.mongodb.com/manual/installation/
 
 ## Current notes
 
